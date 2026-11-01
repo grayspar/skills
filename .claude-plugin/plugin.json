@@ -1,0 +1,12 @@
+{
+  "name": "grayspar",
+  "description": "Deploy apps to Grayspar and share them with the people you choose.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Grayspar",
+    "email": "support@grayspar.com"
+  },
+  "homepage": "https://grayspar.com",
+  "repository": "https://github.com/grayspar/skills",
+  "license": "Apache-2.0"
+}

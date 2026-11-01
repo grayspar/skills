@@ -1,0 +1,15 @@
+{
+  "name": "grayspar",
+  "description": "Grayspar's skills for coding agents.",
+  "owner": {
+    "name": "Grayspar",
+    "email": "support@grayspar.com"
+  },
+  "plugins": [
+    {
+      "name": "grayspar",
+      "source": "./",
+      "description": "Deploy apps to Grayspar and share them with the people you choose."
+    }
+  ]
+}
