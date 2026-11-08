@@ -1,7 +1,7 @@
 {
   "name": "grayspar",
   "description": "Deploy apps to Grayspar and share them with the people you choose.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Grayspar",
     "email": "support@grayspar.com"

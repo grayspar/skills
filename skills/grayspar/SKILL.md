@@ -23,6 +23,8 @@ Grayspar builds an app from a folder, runs it at its own address, and keeps that
 
 1. Do not build or install the app locally first. Grayspar finds the app's services, installs their dependencies and builds them itself, from the source as it is.
 2. Check whether the app writes files it must keep, such as a SQLite database or uploads. Anything outside a volume is lost on every deploy. If it does, note the folder for the deploy command, and make the app read its location from `GRAYSPAR_VOLUME_PATH` if it does not already.
+3. Check each service that answers at a path other than `/`. Grayspar passes every request to that service with the path unchanged: a request for `/<path>/<route>` reaches it as `/<path>/<route>`, not `/<route>`. The service must serve its routes under that path. If a frontend's development proxy removes the path before passing requests on, as Vite's `rewrite` option does, change the service to serve its routes under its path before deploying.
+4. Before changing the app's code, tell the user what will change and why, and wait for their yes.
 
 ## Deploy
 
