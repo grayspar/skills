@@ -21,7 +21,7 @@ In Claude Code, as a plugin:
 /plugin install grayspar@grayspar
 ```
 
-Then ask your agent to deploy the app and share it. The skill installs the Grayspar CLI when it is missing, after asking you, and has you sign in in your browser.
+Then ask your agent to deploy the app and share it. The skill installs the Grayspar CLI when it is missing, after asking you, and has you log in through your browser.
 
 ## License
 
