@@ -1,6 +1,6 @@
 # Grayspar skills
 
-Skills that teach coding agents to use [Grayspar](https://grayspar.com), the cloud for private apps. With them, an agent such as Claude Code, Codex, Cursor or Antigravity deploys the app you're working on, shares it with the people you choose, and reads its logs.
+Skills that teach coding agents to use [Grayspar](https://grayspar.com), the cloud for private apps: deploy your apps with one command and share them like a Google Doc. With them, an agent such as Claude Code, Codex, Cursor or Antigravity deploys the app you're working on, shares it with the people you choose, and reads its logs.
 
 | Skill | What it does |
 | --- | --- |
